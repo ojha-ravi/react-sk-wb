@@ -19,5 +19,8 @@ module.exports = {
 	resolve: {
 		extensions: [".js", ".jsx"]
 	},
+	devServer: {
+		port: 9000
+	},
 	devtool: "cheap-eval-source-map"
 };
